@@ -335,6 +335,8 @@ void print_positions(int *positions)
 	std::cout << "u1->x = " << positions[0] << " u1->y = " << positions[1] << " | u2->x = " << positions[2] << " u2->y = " << positions[3] << std::endl;
 }
 
+////////////////////////////////        Listen          /////////////////////////////////////////////
+
 void listen_server(Socket *_socket,user *_u1,user *_u2)
 {	
 	int server_data[4];
